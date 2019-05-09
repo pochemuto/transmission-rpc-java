@@ -10,7 +10,7 @@ public class RemoveTorrentInfo {
 
     private Ids ids;
 
-    @JsonProperty
+    @JsonProperty("delete-local-data")
     private Boolean deleteLocalData;
 
     public RemoveTorrentInfo(Ids ids, Boolean deleteLocalData) {
